@@ -86,3 +86,91 @@ function visionImgAppear(){
 }
 
 window.addEventListener('scroll', visionImgAppear)
+
+
+
+function goalAppear(){
+    var goal = document.querySelector('.goal');
+    var goalPos = goal.getBoundingClientRect().top;
+    winHeight = window.innerHeight/1.5;
+
+    if (goalPos < winHeight){
+        goal.classList.add('goalAppear')
+    }
+
+    else{
+        goal.classList.remove('goalAppear')
+    }
+}
+
+window.addEventListener('scroll', goalAppear)
+
+
+
+function goalAppear(){
+    var goal = document.querySelector('.goal');
+    var goalPos = goal.getBoundingClientRect().top;
+    winHeight = window.innerHeight/1.5;
+
+    if (goalPos < winHeight){
+        goal.classList.add('goalAppear')
+    }
+
+    else{
+        goal.classList.remove('goalAppear')
+    }
+}
+
+window.addEventListener('scroll', goalAppear)
+
+
+function reasonAppear(){
+    var reason = document.querySelector('.reason');
+    var reasonPos = reason.getBoundingClientRect().top;
+    winHeight = window.innerHeight/1.5;
+
+    if (reasonPos < winHeight){
+        reason.classList.add('reasonAppear')
+    }
+
+    else{
+        reason.classList.remove('reasonAppear')
+    }
+}
+
+window.addEventListener('scroll', reasonAppear)
+
+
+function bbAppear(){
+    var bb = document.querySelector('.bb');
+    var bbPos = bb.getBoundingClientRect().top;
+    winHeight = window.innerHeight/1.5;
+
+    if (bbPos < winHeight){
+        bb.classList.add('bbAppear')
+    }
+
+    else{
+        reason.classList.remove('bbAppear')
+    }
+}
+
+window.addEventListener('scroll', bbAppear)
+
+
+function sctAppear(){
+    var sct = document.querySelector('.stream');
+    var sctPos = sct.getBoundingClientRect().top;
+    winHeight = window.innerHeight/1.5;
+
+    if (sctPos < winHeight){
+        sct.classList.add('sctAppear')
+    }
+
+    else{
+        reason.classList.remove('sctAppear')
+    }
+}
+
+window.addEventListener('scroll', sctAppear)
+

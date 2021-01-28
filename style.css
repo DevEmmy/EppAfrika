@@ -115,6 +115,52 @@ nav li a:hover{
 }
 
 
+.goal{
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(30px);
+}
+
+.goalAppear{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.reason{
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(100px);
+}
+
+.reasonAppear{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.bb{
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(100px);
+}
+
+.bbAppear{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.sct{
+    opacity: 0;
+    margin-left: -60%;
+}
+
+.sctAppear{
+    opacity: 1;
+    margin-left: 0;
+}
+
 .missionImg{
     opacity: 0;
     transition: 1s;
@@ -252,6 +298,7 @@ nav li a:hover{
     margin: 20px auto;
 }
 
+
 .auth{
     width: 50%;
     display: flex;
@@ -264,6 +311,7 @@ nav li a:hover{
     width: 100%;
     margin-top: 200px;
     padding: 0 100px;
+
 }
 
 .stream h1{
@@ -398,7 +446,7 @@ footer a{
     text-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 
-@media screen and (max-width:998px){
+@media screen and (max-width:728px){
     *{
         box-sizing: border-box;
     }
@@ -437,7 +485,7 @@ footer a{
     }
 
     .welcomeNote{
-        width: 95%;
+        width: 90%;
     }
 
     .welcomeNote p{
